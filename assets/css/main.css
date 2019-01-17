@@ -1,0 +1,119 @@
+.html,body{
+  height:100%;
+  /* background-color: black; */
+  color: black;
+}
+
+
+.text-white{
+    color: white;
+}
+
+.text-black{
+    color: black;
+}
+
+.red{
+    border: 2px solid red;
+}
+        
+.navbar {
+    background-color: black;
+    color: white;
+}
+
+
+.btn {
+    border: 1px solid black;
+    padding: 10px 16px;
+    background-color: transparent;
+    cursor: pointer;
+}
+/* Botões ativos */
+.active, .btn:hover {
+    background-color: brown;
+    color: white;
+} 
+
+
+.card{
+    border: transparent;
+}
+
+
+.card-title{
+    color: black;
+}
+
+.cor {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid transparent;
+    padding: 10px 16px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.dropdown-item{
+    background-color: transparent;
+}
+
+.dropdown-item:hover{
+    background-color: brown;
+}
+
+.navbar-toggler-icon{
+    color: white;
+}
+
+.zoom {
+    transition: transform .6s;
+  
+}
+
+.zoom:hover {
+    transform: scale(1.03);
+}
+
+
+.canvas {
+  /* background-color: blue;  */
+  width: 100%;
+  height: auto;
+}
+
+.form-control{
+    border: none;
+    border-radius: 3px;
+    border-bottom: 1px solid white;
+    background-color: transparent; 
+    color: white;
+}
+
+
+
+.form-control:focus{
+    border: none;
+    border-radius: 3px;
+    border-bottom: 1px solid white;
+    background-color: transparent; 
+    color: white;
+}
+
+
+
+
+.btn_canvas {
+    border: 1px solid black;
+    padding: 10px 16px;
+    background-color: white;
+    cursor: pointer;
+}
+/* Botões ativos */
+.active, .btn_btn_canvas:hover {
+    background-color: brown;
+    color: white;
+} 

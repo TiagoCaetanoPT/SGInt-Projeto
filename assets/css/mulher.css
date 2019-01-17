@@ -1,0 +1,69 @@
+.text-black{
+    color: white;
+}
+
+.red{
+    border: 2px solid red;
+}
+        
+.navbar {
+    background-color: black;
+    color: white;
+}
+
+.fundo {
+    background-color: #B9B9B9;
+}
+
+.card{
+    border: transparent;
+}
+
+
+.card-title{
+    color: black;
+}
+
+.btn {
+    border: 1px solid #605353;
+    padding: 10px 16px;
+    background-color: transparent;
+    cursor: pointer;
+}
+/* Botões ativos */
+.active, .btn:hover {
+    background-color: #E08FBA;
+    color: white;
+} 
+
+
+.cor {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top: 1px solid #605353;
+    border-bottom: 1px solid #605353;
+    border-left: 1px solid #605353;
+    border-right: 1px solid transparent;
+    padding: 10px 16px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.dropdown-item{
+    background-color: transparent;
+}
+
+.dropdown-item:hover{
+    background-color: #E08FBA;
+}
+
+
+.pesquisar{
+    background-color: transparent; 
+    color: white;
+    border-right: transparent;
+    border-left: transparent; 
+    border-top: transparent;
+}
+
+
