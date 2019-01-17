@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mini Saia - LaRedoute</title>
+
+
+    <!-- bootstrap -->
+    <link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="../assets/fontawesome-free-5.1.1-web/css/all.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg">
+        <a class="navbar-brand" href="../index.html" style="color: white; font-size: 200%;">LaRedoute</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+        <div id="navbarNavDropdown" class="navbar-collapse collapse">
+            <ul class="navbar-nav mr-auto">
+    
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false" style="color: white">Homem</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="">Roupa</a>
+                        <a class="dropdown-item" href="">Camisolas</a>
+                        <a class="dropdown-item" href="">Calças</a>
+                        <a class="dropdown-item" href="">Casacos</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="Roupa.html" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false" style="color: white">Mulher</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Roupa.html">Roupa</a>
+                        <a class="dropdown-item" href="">Camisolas</a>
+                        <a class="dropdown-item" href="">Calças</a>
+                        <a class="dropdown-item" href="">Casacos</a>
+                    </div>
+                </li>
+                <form class="form-inline mr-3">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                </form>
+                <a class="navbar-brand" href="" style="color: white; font-size: 20px;"><i class="fas fa-user"></i></a>
+                <a class="navbar-brand" href="" style="color: white; font-size: 20px;"><i class="fas fa-shopping-bag"></i></a>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2" style="color: white; background-color: brown; padding-bottom: 10%;">
+                <div class="mt-4">
+                    <b>Inscrever-me</b>
+                    <br>
+                    <b>A minha conta</b>
+                </div>
+                <div class="mt-4 mb-4">
+                    <hr>
+                </div>
+                <div>
+                    <b>LA REDOUTE</b><br>
+                    <span>Quem somos</span><br>
+                    <span>Cartão La Redoute +</span><br>
+                    <span>Contatos</span>
+                </div>
+                <div class="mt-4 mb-4">
+                    <hr>
+                </div>
+                <div>
+                    <b>SERVIÇOS</b><br>
+                    <span>Ajuda</span><br>
+                    <span>Guia de tamanhos</span><br>
+                    <span>Devoluções</span><br>
+                    <span>Todos os serviços</span><br>
+                </div>
+                <div class="mt-4 mb-4">
+                    <hr>
+                </div>
+                <div>
+                    <b>MARCAS EXCLUSIVAS</b><br>
+                    <span>La Redoute Collections</span><br>
+                    <span>Mademoiselle R</span><br>
+                    <span>Anne Weyburn</span><br>
+                    <span>Castaluna</span>
+                </div>
+                </div>
+
+
+
+
+            <div class="col-6" style="padding-top: 25px; padding-left: 50px;">
+                <div style="padding-left: 20%;">
+                    <a style="color: black;" href="../index.html">La Redoute </a>/
+                    <a style="color: black;" href="Roupa.html"> Mulher </a>/
+                    <a style="color: black;" href="Roupa.html"> Roupa </a>/
+                    <a style="color: black;" href=""> Saias </a>/
+                    <a style="color: black;" href=""> Mini Saia</a>
+                </div>
+
+            
+                <div style="margin-left: 20%;">
+                    <img src="../assets/images/saia.jpg" style="width: 100%" id="imgSelecionada">
+                    <br><br><br><br>
+                </div>
+            </div>
+
+
+
+            <div class="col-4 text-left" style="padding-top: 25px;">
+                <br>
+                <b>Descrição:</b>
+                <p>Casaco de senhora em algodão</p>
+                <i>Ver mais</i>
+                <br>
+                <p style="font-size: 60px; font-weight: bold;">59<span style="font-size: 30px;">,90€</span></p>
+
+                    
+                <!-- Cores -->
+                <div class="btn-group" role="group">
+                    <button type="button" class="cor">Cor: <span>Vermelho</span></button>
+                    <div class="btn-group" role="group">
+                        <button id="btnGroupDrop1" type="button" class="btn dropdown-toggle" data-toggle="dropdown"></button>
+                        <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 38px, 0px);">
+                            <a class="dropdown-item" href="">Branco</a>
+                            <a class="dropdown-item" href="">Preto</a>
+                            <a class="dropdown-item" href="">Rosa</a>
+                            <a class="dropdown-item" href="">Vermelho</a>
+                            <a class="dropdown-item" href="">Azul</a>
+                        </div>
+                    </div>
+                </div> <br>
+
+                <!-- Tamanhos -->
+                <div id="tamanhos" class="btn-group mt-2 mb-2">
+                    <button id="XS" class="btn">XS</button>
+                    <button id="S" class="btn">S</button>
+                    <button id="S" class="btn active">M</button>
+                    <button id="S" class="btn">L</button>
+                    <button id="S" class="btn">XL</button>
+                </div>
+
+
+                <!-- Comprar -->
+                <div>
+                    <button type="button" class="btn">Adicionar ao Cesto <i class="fas fa-shopping-bag ml-2"></i></button>
+                </div>
+
+
+                <!-- Miniaturas da Imagem -->
+                <div class="row" style="margin-top: 20px;">
+                    <div class="col-12">
+                        <img class="zoom" src="../assets/images/saia.jpg" style="width: 20%; " onclick="img1()">
+                        <img class="zoom" src="../assets/images/saia2.jpg" style="width: 20%; margin-left: 10px;"
+                            onclick="img2()">
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top: 20px;">
+                    <div class="col-12">
+                        <img class="zoom" src="../assets/images/saia3.jpg" style="width: 20%;" onclick="img3()">
+                        <img class="zoom" src="../assets/images/3d.png" style="width: 25%;" onclick="img3d()">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+        <script>
+            function img1() {
+                document.getElementById("imgSelecionada").style.display = 'block';
+                document.getElementById("imgSelecionada").src = "../assets/images/saia.jpg";
+            }
+
+            function img2() {
+                document.getElementById("imgSelecionada").style.display = 'block';
+                document.getElementById("imgSelecionada").src = "../assets/images/saia2.jpg";
+            }
+
+            function img3() {
+                document.getElementById("imgSelecionada").style.display = 'block';
+                document.getElementById("imgSelecionada").src = "../assets/images/saia3.jpg";
+
+            }
+
+            function img3d() {
+                window.open('Saia3D.html');
+            }
+
+
+            // Obter a div com os botões de tamanhos
+            var tamanhos = document.getElementById("tamanhos");
+
+            // Guarda todos os elemnentos com a class btn
+            var btns = tamanhos.getElementsByClassName("btn");
+
+
+            // Botões XS S M L XL 
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].addEventListener("click", function () {
+                    var current = document.getElementsByClassName("active");
+
+                    // Remove a class "CSS"
+                    if (current.length > 0) {
+                        current[0].className = current[0].className.replace(" active", "");
+                    }
+
+                    // Adiconar class atictive "CSS"
+                    this.className += " active";
+                });
+            } 
+        </script>
+
+
+
+
+        <!-- Rodape -->
+        <nav class="navbar fixed-bottom justify-content-between">
+            <div class="container-fluid">
+                <div class="col-6 text-center">
+                    <b>Contacte-nos: 707 20 10 10</b><br>
+                    <span>De 2ª a 6ª feira das 9h às 19h00</span>
+                </div>
+                <div class="col-6 text-center" style="font-size: 30px;">
+                    <a style="color: white;" href="https://www.facebook.com/LaRedoutePT"><i class="fab fa-facebook-f"></i></a>
+                    <a style="color: white;" href="https://twitter.com/laredoutePT"><i class="fab fa-twitter" style="padding-left: 50px;"></i></a>
+                    <a style="color: white;" href="http://pinterest.com/laredoutept"><i class="fab fa-pinterest" style="padding-left: 50px;"></i></a>
+                    <a style="color: white;" href="https://plus.google.com/+laredoutept/posts"><i class="fab fa-google-plus-g"
+                            style="padding-left: 50px;"></i></a>
+                    <a style="color: white;" href="http://instagram.com/laredoutept"><i class="fab fa-instagram" style="padding-left: 50px;"></i></a>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <!-- javascript -->
+        <script src="../assets/bootstrap/js/jquery-slim.min.js"></script>
+        <script src="../assets/bootstrap/js/popper.min.js"></script>
+        <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+
+        <script src="../js/main.js"></script>
+
+        <!-- Bootstrap CDN -->
+        <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> -->
+        <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+
+</body>
+
+</html>
