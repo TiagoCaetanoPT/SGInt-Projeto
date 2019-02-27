@@ -8,5 +8,4 @@ Hugo Ferreira </br>
 1º - Descarregar Repositório
 2º - Colocar num servidor Web
 
-###### Nota:
-Para que os modelos 3D sejam carregados, é necessário um servidor para alojar a página. Caso contrário, os modelos 3D não são carregados com as páginas web.
+**Nota:** Para que os modelos 3D sejam carregados, é necessário um servidor para alojar a página. Caso contrário, os modelos 3D não são carregados com as páginas web.
